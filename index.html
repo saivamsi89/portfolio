@@ -3,10 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vamsi's Portfolio</title>
+  <title>Vamsi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, I am Vamsi 👋</h1>
-  <p>Welcome to my portfolio website.</p>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">Vamsi</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hello, I'm <span>Vamsi</span></h2>
+    <p>Aspiring AI & Computer Vision Engineer | Flutter Developer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Master's student at ASU, passionate about building AI-powered products 
+      like computer vision tracking systems, Flutter apps, and automation tools. 
+      I enjoy solving real-world problems with deep learning, GenAI, and edge AI devices.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Multi-Camera Tracking</h3>
+        <p>Built a multi-camera person tracking system using YOLOv8 + DeepSORT + OSNet.</p>
+      </div>
+      <div class="project-card">
+        <h3>Flutter CCTV Dashboard</h3>
+        <p>Developed a web app to stream RTSP feeds with person logs using Flask + Flutter.</p>
+      </div>
+      <div class="project-card">
+        <h3>AI Chutney & Vada Dispenser</h3>
+        <p>AI-enabled food dispensers developed at SNFifteen for automation in restaurants.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a></p>
+    <p>💼 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    <p>🐙 GitHub: <a href="https://github.com/saivamsi89" target="_blank">github.com/saivamsi89</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vamsi | Built with ❤ using GitHub Pages</p>
+  </footer>
 </body>
 </html>
